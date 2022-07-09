@@ -176,7 +176,7 @@ let dinoTop=parseInt(window.getComputedStyle(dino).getPropertyValue("top"))
 let cactusLeft=parseInt(window.getComputedStyle(cactus).getPropertyValue("left"))
 
 if (dinoTop >= 273 && cactusLeft > 0 &&cactusLeft < 30) {
-    alert('Game over!')
+    alert(`Game over! Ваш счёт: ${playScore} очков`)
     console.log(45)
 playScore=0
 }
